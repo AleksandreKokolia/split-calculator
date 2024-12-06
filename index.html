@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset .css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        SPLI <br />
+        TTER
+      </h1>
+      <div class="calculator">
+        <div class="input-section">
+          <label for="numericInput">Bill</label>
+          <input
+            type="text"
+            class="numeric_input"
+            id="numericInput"
+            numericInput
+            placeholder="0"
+          />
+
+          <div class="tip_header">Select Tip %</div>
+          <div class="tip-buttons">
+            <button class="tip-btn btn_value">5%</button>
+            <button class="tip-btn btn_value">10%</button>
+            <button class="tip-btn btn_value">15%</button>
+            <button class="tip-btn btn_value">25%</button>
+            <button class="tip-btn btn_value">50%</button>
+            <input
+              type="text"
+              id="custom_tip"
+              class="tip-custom tip-btn custom-tip"
+              placeholder="Custom"
+            />
+          </div>
+
+          <label for="people">Number of People</label>
+          <input
+            type="text"
+            class="numeric_input"
+            id="people"
+            placeholder="0"
+          />
+        </div>
+
+        <div class="output-section">
+          <div class="output">
+            <p>Tip Amount <span>/ person</span></p>
+            <h2>$0.00</h2>
+          </div>
+          <div class="output">
+            <p>Total <span>/ person</span></p>
+            <h2>$0.00</h2>
+          </div>
+          <button class="reset">RESET</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
